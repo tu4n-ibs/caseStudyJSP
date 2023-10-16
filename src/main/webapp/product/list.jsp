@@ -73,7 +73,7 @@
         <h1 style="font-family: 'Courier 10 Pitch' ">PhoneShop</h1>
     </header>
     <nav class="header">
-        <h3 class="title">Menu</h3>
+        <h3 class="title"><a href="/products">Menu</a></h3>
         <ul class="menu">
             <p>
             <form action="/products-search" method="get" class="search">
@@ -98,15 +98,18 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img height="500" src="https://shopdunk.com/images/uploaded/banner/banner_thang10/banner%20kv%2020.10%20T10_Banner%20PC.jpg"
+                    <img height="500"
+                         src="https://shopdunk.com/images/uploaded/banner/banner_thang10/banner%20kv%2020.10%20T10_Banner%20PC.jpg"
                          class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img height="500" src="https://shopdunk.com/images/uploaded/banner/banner_thang10/banner%20iphone%2015%20pro%20max%20TH_PC%20(3).jpg"
+                    <img height="500"
+                         src="https://shopdunk.com/images/uploaded/banner/banner_thang10/banner%20iphone%2015%20pro%20max%20TH_PC%20(3).jpg"
                          class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img height="500" src="https://shopdunk.com/images/uploaded/banner/banner_thang10/banner%20iphone%2014%20Pro%20Max%20T10_Banner%20PC.jpg"
+                    <img height="500"
+                         src="https://shopdunk.com/images/uploaded/banner/banner_thang10/banner%20iphone%2014%20Pro%20Max%20T10_Banner%20PC.jpg"
                          class="d-block w-100" alt="...">
                 </div>
             </div>

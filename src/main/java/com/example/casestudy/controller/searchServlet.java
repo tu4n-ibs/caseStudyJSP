@@ -29,8 +29,8 @@ public class searchServlet extends HttpServlet {
             if (search != null && !search.isEmpty()){
                 List = productService.searchProduct(search);
             }
-            req.setAttribute("product",List);
-            RequestDispatcher dispatcher = req.getRequestDispatcher("product/search.jsp");
+            req.setAttribute("list",List);
+            RequestDispatcher dispatcher = req.getRequestDispatcher("product/list.jsp");
             dispatcher.forward(req,resp);
         } catch (SQLException e) {
             throw new RuntimeException(e);
